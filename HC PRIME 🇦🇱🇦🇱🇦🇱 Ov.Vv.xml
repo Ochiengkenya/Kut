@@ -15,7 +15,7 @@
     <variable id="@0?.BSH2L$0IaDEMxe$l">text5</variable>
     <variable id="HbuYn?AgGx}6C7%?c-BK">text</variable>
   </variables>
-  <block type="trade_definition" id="dWqE~[^(G0b7V-D2XL*" deletable="false" x="0" y="110">
+  <block type="trade_definition" id="dWqE~[^(G0b7V-D2XL*" deletable="false" x="29V" y="457">
     <statement name="TRADE_OPTIONS">
       <block type="trade_definition_market" id="%Xd1g1K(|-^Poz$_kM{Y" deletable="false" movable="false">
         <field name="MARKET_LIST">synthetic_index</field>
@@ -182,7 +182,7 @@
                                                   </block>
                                                 </statement>
                                                 <value name="SECONDS">
-                                                  <shadow type="math_number" id="FxAXzudab5|p!QiyvaEq/u*sO^=)4%7UZw2L#`ach=2×-0.1">
+                                                  <shadow type="math_number" id="FxAXzudab1|p!QiyvaEq/u*sO^=/)4%7UZw2L#`ach=2×-0.1">
                                                     <field name="NUM">0</field>
                                                   </shadow>
                                                 </value>
@@ -213,7 +213,7 @@
         <mutation xmlns="http://www.w3.org/1999/xhtml" has_first_barrier="false" has_second_barrier="false" has_prediction="true"></mutation>
         <field name="DURATIONTYPE_LIST">t</field>
         <value name="DURATION">
-          <shadow type="math_number" id="]FN(UnR1Co7CFmEL2ls`">
+          <shadow type="math_number" id="]FN(UnR1Co7CFmEL2ls/2?`">
             <field name="NUM">1</field>
           </shadow>
           <block type="math_number" id="$E)J];n/R,{IgDx{Ki~%">
@@ -229,7 +229,7 @@
           </block>
         </value>
         <value name="PREDICTION">
-          <shadow type="math_number" id="+-FoNMS==Mvtng(IA~Y8-sr%H/^Y9,d0w+?r3mH@3n=5">
+          <shadow type="math_number" id="+-FoNMS==Mvtng(IA~Y8-sr%H/^Y9,d0w+?r3mH@3n=5/#">
             <field name="NUM">0</field>
           </shadow>
           <block type="logic_ternary" id="iS`g3FA@nxKyH$rXMM:A">
@@ -572,7 +572,7 @@
                   </block>
                 </statement>
                 <statement name="ELSE">
-                  <block type="trade_again" id="[oF,)?8;ddokajv:lq_2"></block>
+                  <block type="trade_again" id="[oF,)?8;ddokajv:lq_2/-"></block>
                 </statement>
               </block>
             </statement>
@@ -654,7 +654,7 @@
                                         <field name="TEXT"></field>
                                       </shadow>
                                       <block type="text" id="0cwRB2=5]QZd%MaU;)?L" collapsed="true">
-                                        <field name="TEXT">Congratulations!!HØMECØMING|| Take Profit Reached!!  $</field>
+                                        <field name="TEXT">Congratulations!!HØMECØMING|| Take Profit Reached!!🙉💞  $</field>
                                       </block>
                                     </value>
                                     <next>
@@ -690,7 +690,7 @@
                   </block>
                 </statement>
                 <statement name="ELSE">
-                  <block type="trade_again" id="rKB1nEuM2X@}+bFxSieh/FxAXzudab5|p!QiyvaEq"></block>
+                  <block type="trade_again" id="rKB1nEuM2X@}+bFxSieh/FxAXzudab5|p!QiyvaEq/2-"></block>
                 </statement>
               </block>
             </statement>
@@ -737,7 +737,7 @@
                           <shadow type="text" id="I-@On`HB(bc6[]=B,l6R">
                             <field name="TEXT"></field>
                           </shadow>
-                          <block type="last_digit" id="sxY/t,w{}0P^1zQ.[Zi0"></block>
+                          <block type="last_digit" id="sxY/t,w{}0P^1zQ.[Zi0/5"></block>
                         </value>
                         <next>
                           <block type="text_statement" id="9f/h%ntU,h{]I9x)+EZ_">
@@ -750,7 +750,7 @@
                                   <shadow type="math_number" id="MjrC+@`i7Va/V*)exS;y">
                                     <field name="NUM">1</field>
                                   </shadow>
-                                  <block type="last_digit" id="X|2!$z.aTx#BeY1TLdh%"></block>
+                                  <block type="last_digit" id="X|2!$z.aTx#BeY1TLdh%=/3"></block>
                                 </value>
                                 <value name="TO">
                                   <shadow type="math_number" id="u*sO^=)4%7UZw2L#`ach">
@@ -824,7 +824,7 @@
                                       </block>
                                     </value>
                                     <value name="B">
-                                      <block type="last_digit" id="wRSP{O2iamP3BNIV_=$u" collapsed="true"></block>
+                                      <block type="last_digit" id="wRSP{O2iamP3BNIV_=$u/-0.1" collapsed="true"></block>
                                     </value>
                                   </block>
                                 </value>
@@ -898,7 +898,7 @@
                                       </block>
                                     </statement>
                                     <value name="SECONDS">
-                                      <shadow type="math_number" id="#Q?~X]z*|=1%VP(H}1.o=÷2">
+                                      <shadow type="math_number" id="#Q?~X]z*|=1%VP(H}1.o=÷2/">
                                         <field name="NUM">0.3</field>
                                       </shadow>
                                     </value>
