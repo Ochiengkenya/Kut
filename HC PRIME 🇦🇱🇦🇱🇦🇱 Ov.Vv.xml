@@ -15,7 +15,7 @@
     <variable id="@0?.BSH2L$0IaDEMxe$l">text5</variable>
     <variable id="HbuYn?AgGx}6C7%?c-BK">text</variable>
   </variables>
-  <block type="trade_definition" id="dWqE~[^(G0b7V-D2XL*" deletable="false" x="29V" y="457">
+  <block type="trade_definition" id="dWqE~[^(G0b7V-D2XL-strict*" deletable="false" x="29V" y="457">
     <statement name="TRADE_OPTIONS">
       <block type="trade_definition_market" id="%Xd1g1K(|-^Poz$_kM{Y" deletable="false" movable="false">
         <field name="MARKET_LIST">synthetic_index</field>
@@ -30,7 +30,7 @@
                 <field name="TYPE_LIST">both</field>
                 <next>
                   <block type="trade_definition_candleinterval" id="-uq~plt0:{1YwGN!ur#e" deletable="false" movable="false">
-                    <field name="CANDLEINTERVAL_LIST">120</field>
+                    <field name="CANDLE_INTERVAL_LIST">120</field>
                     <next>
                       <block type="trade_definition_restartbuysell" id="t1{aTd|_{x[#p;0d,1]" deletable="false" movable="false">
                         <field name="TIME_MACHINE_ENABLED">FALSE</field>
@@ -50,7 +50,7 @@
       </block>
     </statement>
     <statement name="INITIALIZATION">
-      <block type="text_print" id="vU*~Rg#{d#g.JD_=r/{i" collapsed="true">
+      <block type="text_print" id="vU*~Rg#{d#g.JD_=q/{i" collapsed="true">
         <value name="TEXT">
           <shadow type="text" id="WttgJ`Sd+zdH@w[Des?q">
             <field name="TEXT">HØMECØMING 🇰🇪 A.I Premium [DEVELOPED BY ØCHIENG KENYA🇦🇱🇰🇪</field>
@@ -94,7 +94,7 @@
                               <block type="variables_set" id="vj6bsk4a.@P9*.2N7n}_">
                                 <field name="VAR" id="hq*SYc`U|S8V{_VmyQ[?">Expected Profit</field>
                                 <value name="VALUE">
-                                  <block type="math_number" id="tb?QtI{zN[1P.WYA/RA!">
+                                  <block type="math_number" id="tb?QtI{zN[1P.WYA/RA!U*">
                                     <field name="NUM">700</field>
                                   </block>
                                 </value>
@@ -170,7 +170,7 @@
                                               </block>
                                             </value>
                                             <next>
-                                              <block type="timeout" id="u)P3nn7QCrQi,jvt_8oM" collapsed="true">
+                                              <block type="timeout_false" id="u)P3nn7QCrQi,jvt_8oM" collapsed="true">
                                                 <statement name="TIMEOUTSTACK">
                                                   <block type="variables_set" id="s(nC(rRV1-Dl~0vQ~YmR">
                                                     <field name="VAR" id="Tj:Erd(X$U?X!wAp6EEK">Loss</field>
@@ -182,7 +182,7 @@
                                                   </block>
                                                 </statement>
                                                 <value name="SECONDS">
-                                                  <shadow type="math_number" id="FxAXzudab1|p!QiyvaEq/u*sO^=/)4%7UZw2L#`ach=2×-0.1">
+                                                  <shadow type="math_number" id="FxAXzudab1|p_!QiyvaEq/u*sO^=/)4%7UZw2L#`ach=_2×-0.1">
                                                     <field name="NUM">0</field>
                                                   </shadow>
                                                 </value>
