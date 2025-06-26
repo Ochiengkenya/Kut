@@ -170,7 +170,7 @@
                                               </block>
                                             </value>
                                             <next>
-                                              <block type="timeout_false" id="u)P3nn7QCrQi,jvt_8oM" collapsed="true">
+                                              <block type="timeout" id="u)P3nn7QCrQi,jvt_8oM" collapsed="true">
                                                 <statement name="TIMEOUTSTACK">
                                                   <block type="variables_set" id="s(nC(rRV1-Dl~0vQ~YmR">
                                                     <field name="VAR" id="Tj:Erd(X$U?X!wAp6EEK">Loss</field>
